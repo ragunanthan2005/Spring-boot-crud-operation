@@ -32,33 +32,6 @@ A simple **Spring Boot** application demonstrating a **CRUD REST API** to manage
 | IntelliJ IDEA  | IDE (Community Edition)      |
 
 ---
-
-## 🗂️ Project Structure
-
-src:
-  main:
-    java:
-      com:
-        example:
-          Crud:
-            controller:
-              - EmployeeController.java
-            service:
-              - EmployeeServiceImpl.java
-            repository:
-              - EmployeeRepository.java
-            model:
-              - Employee.java
-              - EmployeeDTO.java
-            - CrudApplication.java
-    resources:
-      - application.properties
-      static: []
-      templates: []
-
-
-
-
 ---
 
 ## 🚀 Getting Started
