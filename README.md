@@ -35,21 +35,28 @@ A simple **Spring Boot** application demonstrating a **CRUD REST API** to manage
 
 ## 🗂️ Project Structure
 
-src/main/java/com/example/Crud
-├── controller/ # Handles HTTP requests
-│ └── EmployeeController.java
-├── service/ # Business logic
-│ └── EmployeeServiceImpl.java
-├── repository/ # Data access layer
-│ └── EmployeeRepository.java
-├── model/ # Entity and DTO
-│ ├── Employee.java
-│ └── EmployeeDTO.java
-└── CrudApplication.java
+src:
+  main:
+    java:
+      com:
+        example:
+          Crud:
+            controller:
+              - EmployeeController.java
+            service:
+              - EmployeeServiceImpl.java
+            repository:
+              - EmployeeRepository.java
+            model:
+              - Employee.java
+              - EmployeeDTO.java
+            - CrudApplication.java
+    resources:
+      - application.properties
+      static: []
+      templates: []
 
-src/main/resources/
-├── application.properties
-└── static/ and templates/ (if needed)
+
 
 
 ---
